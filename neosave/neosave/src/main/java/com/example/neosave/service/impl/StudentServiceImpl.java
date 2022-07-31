@@ -2,9 +2,7 @@ package com.example.neosave.service.impl;
 
 import java.util.List;
 import java.util.Optional;
-
 import org.springframework.stereotype.Service;
-
 import com.example.neosave.exception.ResourceDuplicateException;
 import com.example.neosave.exception.ResourceNotFoundException;
 import com.example.neosave.model.Student;
@@ -44,7 +42,4 @@ public class StudentServiceImpl implements StudentService {
 		}
 		
 	}
-
-	
-
 }
